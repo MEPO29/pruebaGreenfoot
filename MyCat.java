@@ -17,4 +17,13 @@ public class MyCat extends Cat
         dance();
         
     }    
+    
+    public void hooray()
+    {
+        sleep(2);
+        if (isBored())
+        {
+            shoutHooray();
+        }
+    }
 }
